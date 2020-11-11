@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-USE Method _ Node-1604906492251
+data:
+  USE Method _ Node-1604906492251.json: |-
+{{ .Files.Get "USE Method _ Node-1604906492251.json" | indent 4}}

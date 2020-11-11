@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Proxy-1604906463976
+data:
+  Kubernetes _ Proxy-1604906463976.json: |-
+{{ .Files.Get "Kubernetes _ Proxy-1604906463976.json" | indent 4}}

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Controller Manager-1604906364331
+data:
+  Kubernetes _ Controller Manager-1604906364331.json: |-
+{{ .Files.Get "Kubernetes _ Controller Manager-1604906364331.json" | indent 4}}

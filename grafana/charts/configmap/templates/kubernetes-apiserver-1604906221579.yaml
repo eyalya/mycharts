@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-kubernetes-apiserver-1604906221579
+data:
+  kubernetes-apiserver-1604906221579.json: |-
+{{ .Files.Get "kubernetes-apiserver-1604906221579.json" | indent 4}}

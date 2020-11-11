@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Persistent Volumes-1604906457680
+data:
+  Kubernetes _ Persistent Volumes-1604906457680.json: |-
+{{ .Files.Get "Kubernetes _ Persistent Volumes-1604906457680.json" | indent 4}}

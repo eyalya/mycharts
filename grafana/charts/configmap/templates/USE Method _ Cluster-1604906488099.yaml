@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-USE Method _ Cluster-1604906488099
+data:
+  USE Method _ Cluster-1604906488099.json: |-
+{{ .Files.Get "USE Method _ Cluster-1604906488099.json" | indent 4}}

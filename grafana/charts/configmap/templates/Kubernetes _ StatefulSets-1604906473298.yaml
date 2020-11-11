@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ StatefulSets-1604906473298
+data:
+  Kubernetes _ StatefulSets-1604906473298.json: |-
+{{ .Files.Get "Kubernetes _ StatefulSets-1604906473298.json" | indent 4}}

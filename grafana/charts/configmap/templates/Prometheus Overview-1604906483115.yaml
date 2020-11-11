@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Prometheus Overview-1604906483115
+data:
+  Prometheus Overview-1604906483115.json: |-
+{{ .Files.Get "Prometheus Overview-1604906483115.json" | indent 4}}

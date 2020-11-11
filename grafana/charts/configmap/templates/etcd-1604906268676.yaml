@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-etcd-1604906268676
+data:
+  etcd-1604906268676.json: |-
+{{ .Files.Get "etcd-1604906268676.json" | indent 4}}

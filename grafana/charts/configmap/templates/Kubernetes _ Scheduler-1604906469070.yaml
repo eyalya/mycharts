@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Scheduler-1604906469070
+data:
+  Kubernetes _ Scheduler-1604906469070.json: |-
+{{ .Files.Get "Kubernetes _ Scheduler-1604906469070.json" | indent 4}}

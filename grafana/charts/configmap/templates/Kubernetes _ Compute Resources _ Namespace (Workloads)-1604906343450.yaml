@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Compute Resources _ Namespace (Workloads)-1604906343450
+data:
+  Kubernetes _ Compute Resources _ Namespace (Workloads)-1604906343450.json: |-
+{{ .Files.Get "Kubernetes _ Compute Resources _ Namespace (Workloads)-1604906343450.json" | indent 4}}

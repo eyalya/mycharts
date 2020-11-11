@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-CoreDNS-1604906285064
+data:
+  CoreDNS-1604906285064.json: |-
+{{ .Files.Get "CoreDNS-1604906285064.json" | indent 4}}

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Nodes-1604906478183
+data:
+  Nodes-1604906478183.json: |-
+{{ .Files.Get "Nodes-1604906478183.json" | indent 4}}

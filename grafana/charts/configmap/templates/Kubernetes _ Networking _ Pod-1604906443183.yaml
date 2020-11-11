@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-Kubernetes _ Networking _ Pod-1604906443183
+data:
+  Kubernetes _ Networking _ Pod-1604906443183.json: |-
+{{ .Files.Get "Kubernetes _ Networking _ Pod-1604906443183.json" | indent 4}}
